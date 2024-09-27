@@ -8,3 +8,8 @@ def test_fail():
 
 def test_pass():
     assert True
+
+
+@pytest.mark.skip
+def test_fail_2():
+    assert False
